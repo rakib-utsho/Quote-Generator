@@ -1,12 +1,11 @@
 const quoteContainer = document.getElementById('quote-container');
-const quoteText =document.getElementById('quote');
-const authorText =document.getElementById('author');
-const twitterBtn =document.getElementById('twitter');
-const newQuoteBtn =document.getElementById('new-quote');
-
-
+const quoteText = document.getElementById('quote');
+const authorText = document.getElementById('author');
+const twitterBtn = document.getElementById('twitter');
+const newQuoteBtn = document.getElementById('new-quote');
 
 let apiQuotes = [];
+
 // Show new Quote
 function newQuote(){
     //pick random quotes from apiQuotes array
